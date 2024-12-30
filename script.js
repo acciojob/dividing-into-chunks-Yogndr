@@ -4,6 +4,8 @@ let temp=[];
 const divide = (arr, n) => {
 	for(let i=0;i<arr.length;i++){
 		let sum=0;
+		let ans=[];
+		
 		for(let j=i;j<arr.length;j++){
 			sum=sum+arr[j];
 			if(sum<n){
