@@ -9,6 +9,7 @@ const divide = (arr, n) => {
 			if(sum<n){
 				for(let k=i;k<=j;k++)
 					ans.push(arr[k]);
+				// console.log(arr[k]);
 				}
 			else if(sum>=n){
 				break;
@@ -18,8 +19,9 @@ const divide = (arr, n) => {
 		}
         
 	}
+	return temp;
   // Write your code here
 };
 
-// const n = prompt("Enter n: ");
+const n = prompt("Enter n: ");
 alert(JSON.stringify(divide(arr, n)));
