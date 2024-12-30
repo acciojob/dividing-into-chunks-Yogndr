@@ -1,5 +1,5 @@
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
-
+let ans=[];
 let temp=[];
 const divide = (arr, n) => {
 	let temp = [];
@@ -19,8 +19,7 @@ const divide = (arr, n) => {
 		temp.push(ans);
 	}
 	return temp;
-  // Write your code here
 };
 
-// const n = prompt("Enter n: ");
+const n = prompt("Enter n: ");
 alert(JSON.stringify(divide(arr, n)));
